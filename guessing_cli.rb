@@ -12,7 +12,7 @@ def run_guessing_game
       break
     end
     puts "The computer guessed 5."
-    pry
+    binding.pry
   end
 end
 
