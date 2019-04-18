@@ -8,7 +8,7 @@ def run_guessing_game
       puts "Goodbye!"
       break
     elsif input == anwser.to_i
-      puts break
+      break
     else
       puts "wrong"
     end
