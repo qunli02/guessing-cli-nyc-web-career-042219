@@ -7,7 +7,7 @@ def run_guessing_game
     if input == "exit"
       puts "Goodbye!"
       break
-    elsif input.to_i == anwser 
+    elsif (input.to_i + 1) == anwser 
       puts "You guessed the correct number!"
     end
     puts "The computer guessed 5."
