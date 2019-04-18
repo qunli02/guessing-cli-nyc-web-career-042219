@@ -4,7 +4,7 @@ def run_guessing_game
   loop do 
     input = gets.chomp
     if input == "exit"
-      puts "Goodbye"
+      puts "Goodbye!"
       break
     elsif input == anwser
       puts "You guessed the correct number!"
