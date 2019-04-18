@@ -1,4 +1,4 @@
 # Code your solution here!
 def run_guessing_game
-  rand(6)
+ return 1 + rand(6)
 end
